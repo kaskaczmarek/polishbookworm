@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <responseDate>2024-01-01T00:00:00Z</responseDate>
+  <request verb="ListRecords" metadataPrefix="oai_dc">https://example/oai</request>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>oai:fbc:obj-1</identifier>
+        <datestamp>2020-01-01</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+          <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Liryki i epigramata</dc:title>
+          <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Adam Mickiewicz</dc:creator>
+          <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Wydanic zawiera wybór liryków, między innymi fragmenty o miłości ojczyzny.</dc:description>
+          <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1829</dc:date>
+          <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">https://example.pl/obj-1</dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:fbc:obj-2</identifier>
+        <datestamp>2020-01-02</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">
+          <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Podróże po Afryce</dc:title>
+          <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jan Kowalski</dc:creator>
+          <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Relacja z wyprawy przez Saharę.</dc:description>
+          <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">1910</dc:date>
+          <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">https://example.pl/obj-2</dc:identifier>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
