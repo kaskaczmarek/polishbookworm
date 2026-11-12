@@ -1,0 +1,23 @@
+{
+  "count": 2,
+  "items": [
+    {
+      "id": 12345,
+      "slug": "pan-tadeusz",
+      "title": "Pan Tadeusz, czyli Ostatni zajazd na Litwie",
+      "creators": ["Adam Mickiewicz"],
+      "language": "pol",
+      "year": 1834,
+      "has_text_content": true
+    },
+    {
+      "id": 67890,
+      "slug": "dziady",
+      "title": "Dziady : część III",
+      "creators": ["Adam Mickiewicz"],
+      "language": "pol",
+      "year": 1860,
+      "has_text_content": true
+    }
+  ]
+}
