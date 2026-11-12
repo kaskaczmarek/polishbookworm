@@ -17,6 +17,20 @@ python3 -m bibsearch.cli "konrad wallenrod" --export json:wyniki.json --delay 2.
 Fraza w cudzysłowie jest przekazywana do silników bez zmian (frazy dokładne
 obsługuje składnia danego serwisu, np. `"..."` w Polonie).
 
+## Aplikacja webowa
+
+```bash
+python3 -m bibsearch.webapp            # http://127.0.0.1:8000
+python3 -m bibsearch.webapp --port 8080
+```
+
+Serwer nasłuchuje tylko na `127.0.0.1` (bez zależności, czysty stdlib).
+Endpointy:
+
+- `/` — formularz z wyborem serwisów i wynikami,
+- `/api/search?phrase=...&source=polona&source=fbc&limit=20` — JSON,
+- `/export.csv?phrase=...&source=...`, `/export.json?...` — pobranie wyników.
+
 ## Architektura
 
 Wspólny interfejs (`bibsearch/base.py`):
